@@ -6,7 +6,7 @@ console.log("Array Original", numeros);
 
 let maioresOuIguaisA7 = numeros.filter(function(numero){
 
-    return numero > 7;
+    return numero >= 7;
 });
 
 console.log("Notas maiores ou iguais a 7:", maioresOuIguaisA7);
